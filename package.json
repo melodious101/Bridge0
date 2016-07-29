@@ -1,0 +1,89 @@
+{
+    "author": "scottybrackett@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "time_weather",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "TIME_WEATHER",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "KEY_CONDITIONS": 1,
+            "KEY_TEMPERATURE": 0
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/5.png",
+                    "name": "FIVE_PICTURE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/4.png",
+                    "name": "FOUR_PICTURE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/3.png",
+                    "name": "THREE_PICTURE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/6.png",
+                    "name": "SIX_PICTURE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/2.png",
+                    "name": "TWO_PICTURE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/1.png",
+                    "name": "ONE_PICTURE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/zpicture.png",
+                    "name": "WATCH_BACKROUND",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/asl_resized_mono.png",
+                    "name": "SPARK_ICON",
+                    "type": "png"
+                },
+                {
+                    "file": "fonts/8-BIT WONDER.TTF",
+                    "name": "ATE_BIT_24",
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/8-BIT WONDER.TTF",
+                    "name": "ATE_BIT_14",
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "66a1e271-1c08-463c-ae5a-df468c62af9b",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
